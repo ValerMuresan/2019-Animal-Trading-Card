@@ -11,6 +11,7 @@ html {
   padding: 0;
   width: 100%;
   height: 100%;
+  align-items: center;
 }
 .trade-card {
   height: 700px;
@@ -72,4 +73,11 @@ li {
 }
 .description {
   margin: inherit;
+}
+/*
+* Setting media queries
+*/
+@media (max-width: 450px) {
+  width: 100%;
+  min-height: 100%;
 }
